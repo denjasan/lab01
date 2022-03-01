@@ -118,16 +118,43 @@ $ gist REPORT.md
 ## Homework
 
 1. Скачайте библиотеку *boost* с помощью утилиты **wget**. Адрес для скачивания `https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz`.
+<img width="816" alt="Pasted Graphic" src="https://user-images.githubusercontent.com/55495317/156125141-c266c227-d0a5-498e-ad85-ee8515686045.png">
+
 2. Разархивируйте скаченный файл в директорию `~/boost_1_69_0`
+<img width="498" alt="boost 1 69 0boost" src="https://user-images.githubusercontent.com/55495317/156186236-b46ff7fb-029c-46b7-b41a-ba8530209f1f.png">
+<img width="439" alt="boost_1_69_0toolsquickbooktestxml_escape-1_5 gold-html" src="https://user-images.githubusercontent.com/55495317/156186244-ca632cbf-a5a6-4211-bbc3-4153184bc273.png">
+
 3. Подсчитайте количество файлов в директории `~/boost_1_69_0` **не включая** вложенные директории.
+<img width="377" alt="Pasted Graphic 3" src="https://user-images.githubusercontent.com/55495317/156186263-f8e4afc3-3430-42dc-82e5-b85fcd572f5e.png">
+
 4. Подсчитайте количество файлов в директории `~/boost_1_69_0` **включая** вложенные директории.
+<img width="322" alt="denjasan@man boost 1_69_0  ls -1" src="https://user-images.githubusercontent.com/55495317/156186281-29b6355d-e8ab-4c09-9aa9-992eb4a6d7bc.png">
+
 5. Подсчитайте количество заголовочных файлов, файлов с расширением `.cpp`, сколько остальных файлов (не заголовочных и не `.cpp`).
+<img width="513" alt="denjasan@man boost_1_69_0  1s -1" src="https://user-images.githubusercontent.com/55495317/156186302-d3502bc5-a5f6-4f67-af27-2efea8424c81.png">
+
 6. Найдите полный пусть до файла `any.hpp` внутри библиотеки *boost*.
+<img width="562" alt="UsersdenjasanTiNPboost_1_69_0boostfusionalgorithmqueryany hpp" src="https://user-images.githubusercontent.com/55495317/156186327-aa94381e-d7eb-4a90-ab52-7a39e1161e48.png">
+
 7. Выведите в консоль все файлы, где упоминается последовательность `boost::asio`.
-8. Скомпилирутйе *boost*. Можно воспользоваться [инструкцией](https://www.boost.org/doc/libs/1_61_0/more/getting_started/unix-variants.html#or-build-custom-binaries) или [ссылкой](https://codeyarns.com/2017/01/24/how-to-build-boost-on-linux/).
-9. Перенесите все скомпилированные на предыдущем шаге статические библиотеки в директорию `~/boost-libs`.
-10. Подсчитайте сколько занимает дискового пространства каждый файл в этой директории.
-11. Найдите *топ10* самых "тяжёлых".
+<img width="740" alt="Pasted Graphic 7" src="https://user-images.githubusercontent.com/55495317/156186331-ea29a79d-519b-4b4a-8cea-780f78cfdaab.png">
+
+8. Скомпилирутйе *boost*. Можно воспользоваться [инструкцией](https://www.boost.org/doc/libs/1_61_0/more/getting_started/unix-variants.html#or-build-custom-
+<img width="651" alt="Building Boost  Build engine with toolset darwin  toolsbuildsrcenginebin macosxarmb2" src="https://user-images.githubusercontent.com/55495317/156186351-5a5e8fda-c1f5-4aab-a1ae-69f6975b3573.png">
+
+9. binaries) или [ссылкой](https://codeyarns.com/2017/01/24/how-to-build-boost-on-linux/).
+<img width="364" alt="denjasan@man boost_1_69_0  mv  ~boost-libs" src="https://user-images.githubusercontent.com/55495317/156186367-a4bb32a6-0e45-4226-b518-b7c42b37d73e.png">
+
+10. Перенесите все скомпилированные на предыдущем шаге статические библиотеки в директорию `~/boost-libs`.
+ncdu ~/boost-libs      
+<img width="738" alt="Pasted Graphic 10" src="https://user-images.githubusercontent.com/55495317/156186400-b5b49655-6518-4650-bbf3-2a805913f220.png">
+
+11. Подсчитайте сколько занимает дискового пространства каждый файл в этой директории.
+<img width="649" alt="11M Usersdenjasanboost-libslibsmathdocmath pdf" src="https://user-images.githubusercontent.com/55495317/156186477-59632612-b8ee-418a-908e-c2ca497aacaa.png">
+
+12. Найдите *топ10* самых "тяжёлых".
+<img width="649" alt="11M Usersdenjasanboost-libslibsmathdocmath pdf" src="https://user-images.githubusercontent.com/55495317/156186507-fa6fea5c-f6b6-4b44-a874-78f40bbd4af6.png">
+
 
 ```
 Copyright (c) 2015-2021 The ISC Authors
