@@ -142,18 +142,17 @@ $ gist REPORT.md
 8. Скомпилирутйе *boost*. Можно воспользоваться [инструкцией](https://www.boost.org/doc/libs/1_61_0/more/getting_started/unix-variants.html#or-build-custom-
 <img width="651" alt="Building Boost  Build engine with toolset darwin  toolsbuildsrcenginebin macosxarmb2" src="https://user-images.githubusercontent.com/55495317/156186351-5a5e8fda-c1f5-4aab-a1ae-69f6975b3573.png">
 
-9. binaries) или [ссылкой](https://codeyarns.com/2017/01/24/how-to-build-boost-on-linux/).
-<img width="364" alt="denjasan@man boost_1_69_0  mv  ~boost-libs" src="https://user-images.githubusercontent.com/55495317/156186367-a4bb32a6-0e45-4226-b518-b7c42b37d73e.png">
-
-10. Перенесите все скомпилированные на предыдущем шаге статические библиотеки в директорию `~/boost-libs`.
+9. Перенесите все скомпилированные на предыдущем шаге статические библиотеки в директорию `~/boost-libs`.
 ncdu ~/boost-libs      
-<img width="738" alt="Pasted Graphic 10" src="https://user-images.githubusercontent.com/55495317/156186400-b5b49655-6518-4650-bbf3-2a805913f220.png">
+<img width="364" alt="denjasan@man boost_1_69_0  mv  ~boost-libs" src="https://user-images.githubusercontent.com/55495317/156186923-e7b15392-b8ad-4011-96bb-35a5fcc64460.png">
 
-11. Подсчитайте сколько занимает дискового пространства каждый файл в этой директории.
-<img width="649" alt="11M Usersdenjasanboost-libslibsmathdocmath pdf" src="https://user-images.githubusercontent.com/55495317/156186477-59632612-b8ee-418a-908e-c2ca497aacaa.png">
 
-12. Найдите *топ10* самых "тяжёлых".
-<img width="649" alt="11M Usersdenjasanboost-libslibsmathdocmath pdf" src="https://user-images.githubusercontent.com/55495317/156186507-fa6fea5c-f6b6-4b44-a874-78f40bbd4af6.png">
+10. Подсчитайте сколько занимает дискового пространства каждый файл в этой директории.
+<img width="738" alt="Pasted Graphic 10" src="https://user-images.githubusercontent.com/55495317/156186941-5c361762-fc8e-40a6-a147-e63674dbf8bc.png">
+
+11. Найдите *топ10* самых "тяжёлых".
+<img width="649" alt="11M Usersdenjasanboost-libslibsmathdocmath pdf" src="https://user-images.githubusercontent.com/55495317/156186960-8f3a17d2-74e7-4379-aee1-23f802e9d785.png">
+
 
 
 ```
